@@ -1,0 +1,78 @@
+/*styling the header */
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+ul,h1,li{
+    display: inline;
+}
+ul{
+    margin-left: 70%;
+}
+li{
+    color: grey;
+    cursor: pointer;
+}
+li:hover{
+    color: white;
+}
+
+/*styling the search bar */
+.search-box{
+    padding: 50px;
+    text-align: center;
+}
+input{
+    width: 600px;
+    height: 30px;
+}
+
+/*styling the product */
+img{
+    width: 220px;
+    height: 220px;
+    cursor: pointer;
+}
+.box{
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    display: inline-block;
+    height: 312px;
+    width: 220px;
+    cursor: pointer;
+}
+.box:hover{
+    background-color: black;
+    color: white;
+}
+.product{
+    text-align: center;
+}
+
+/*styling about us  */
+.about{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*styling contact us*/
+.contact{
+    margin-top: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+/*styling the background*/
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/297/060/original/abstract-white-gradient-background-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
